@@ -1,0 +1,23 @@
+# File dependencies for CodEase middleware
+fastapi
+pymongo
+pydantic
+python-dotenv
+pandas
+langchain
+langchain_community
+langchain_openai
+upstash_redis
+starlette  # FastAPI dependency
+uvicorn[standard]
+openpyxl
+fastapi_mail
+firebase-admin
+razorpay
+PyJWT
+python-multipart
+solana
+solders
+anchorpy
+typing-extensions
+reportlab

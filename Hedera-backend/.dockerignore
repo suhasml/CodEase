@@ -1,0 +1,23 @@
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+.gitignore
+uploads
+.env
+*.local
+*.log
+
+# Editor and build outputs
+.vscode
+.idea
+coverage
+artifacts
+cache
+build
+
+# Misc
+*.bin
+*.out
+

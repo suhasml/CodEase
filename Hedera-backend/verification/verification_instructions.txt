@@ -1,0 +1,29 @@
+# Contract Verification Instructions
+
+## Upload Files to HashScan
+
+1. **Main Contract File**: MemeAmmRouter_Flattened.sol
+2. **Compiler Version**: v0.8.20+commit.a1b79de6
+3. **Optimization**: Enabled (200 runs)
+4. **Constructor Parameters**: 
+   - _platformFeeWallet: 0x3Df1c7EfD50bdBB204fDeE98eEa276c55A8e4867
+
+## Verification Steps:
+
+1. Go to: https://hashscan.io/testnet/contract/0.0.6495373
+2. Click "Verify Contract"
+3. Upload the flattened contract file
+4. Set compiler version: 0.8.20
+5. Enable optimization: Yes (200 runs)
+6. Add constructor parameter: 0x3Df1c7EfD50bdBB204fDeE98eEa276c55A8e4867
+7. Submit for verification
+
+## Files Generated:
+- MemeAmmRouter_Flattened.sol (main contract file)
+- metadata.json (compiler settings)
+- verification_instructions.txt (this file)
+
+## Constructor Parameters (ABI Encoded):
+0x3Df1c7EfD50bdBB204fDeE98eEa276c55A8e4867
+
+Note: The contract address 0.0.6495373 (Hedera format) corresponds to EVM address 0x42b6d20D6167495B333AED69dF00776C42368fB9
